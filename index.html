@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <center><img src="./tg.jpg" width="50" alt=" logo "></center>   
+        <center><h1>Telangana State Board Corporation</h1></center>
+</fieldest>
+<legend> Application <details></details></legend>
+    </fieldset>
+    <label for=" Name"<d> Name :* </b></label>
+    <input type="text" name="name" id="name" required pattern="[a-zA-z]"{1-20}>
+    <br><br>
+    <label for="guardin name"<b>Father's guardian Name:*</b></label>
+<input type="text" name="guardian" id="guadian" requiredpttern="[a-zA-z]+">
+<br><br>
+<label for="dob"><b>Date of birth* :</b></label>
+<input type="date" name="dob" id="dob" required >
+<br><br>
+<label for="gender"><b>Gender* :</b></label>
+            <input type="radio" name="gen" id="gender" value="Female" required>Female
+            <input type="radio" name="gen" id="gender" required value="Male">Male
+            <br><br>
+            
+            <label for="age"><b>Age As on* :</b></label>
+            <input type="text" size="1" required pattern="[0-9]{2}">Year(s)
+            <input type="text" size="1" required pattern="[0-9]{2}">Month(s)
+            <input type="text" size="1" required pattern="[0-9]{2}">Day(s)
+
+            <br><br>
+            <label for="aadhar"><b>Aadhar No :</b></label>
+            <input type="text" required id="aadhar" pattern="[0-9]{12}">
+
+
+            <br><br>
+            <label for="whatsapp"><b>WhatsappNo* :</b></label>
+            <input type="text" name="WhatsappNo" id="whatsapp" required pattern="\+91[6789][0-9]{9}">
+            <br><br>
+            <label for="mail"><b>E-mail Id* :</b></label>
+            <input type="email" id="mail" name="mail" required>
+            <br><br>
+            <label for="file"><b>Photo* :</b></label>
+            <input type="file" name="file" id="file" required>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend><h3>Residential Address Details</h3></legend>
+            <label for="address"><b>Applicant's Address* :</b></label>
+            <textarea name="add" maxlength="20" required id="address"></textarea>
+            <br><br>
+
+            <label for="district"><b>District* :</b></label>
+            <select name="district" id="district">
+                <option value="HYD">HYDERABAD</option>
+            </select>
+            
+
+
+            <br><br>
+
+            <label for="mandal"><b>Mandal* :</b></label>
+            <select name="mandal" id="mandal">
+                <option value="HYD">HYDERABAD</option>
+            </select>
+
+            <br><br>
+
+            <label for="village"><b>Village* :</b></label>
+            <select name="vill" id="village">
+                <option value="HYD">HYDERABAD</option>
+            </select>
+
+            <br><br>
+
+            <label for="pin"><b>Pincode* :</b></label>
+            <input type="text" name="pin" id="pin">
+        </fieldset>
+
+        <fieldset>
+            <legend><h3>Pass Type Details</h3></legend>
+            <label for="city"><b>City* :</b></label>
+            <select name="pass" id="city">
+                <option value="HYD">HYDERABAD</option>
+            </select><br><br>
+            <label for="Passtype"><b>Pass Type* :</b></label>
+            <select name="type" id="Passtype">
+                <option value="sel">---Select---</option>
+                <option value="gre">GREATER PASS</option>
+                <option value="gen">GENERAL ORDINARY ROUTE PASS MTLY</option>
+                <option value="gene">GENERAL METRO EXPRESS ROUTE PASS MLTLY</option>
+                <option value="ord">ORDINARY PASS</option>
+                <option value="met">METRO EXPRESS PASS</option>
+                <option value="exp">METRO DELUXE PASS</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend><h3>Mode of Payment & Pass Collection</h3></legend>
+            <label for="mode"><b>Payment Mode* :</b></label>
+            <select name="pay" id="mode">
+                <option value="sel">Select Payment Mode</option>
+                <option value="Coun">Payment at Counter</option>
+            </select>
+            <br><br>
+
+            <label for="pass delivery"> <b>Pass Delivery Mode* :</b></label>
+            <select name="pass" id="pass delivery">
+                <option value="mod">Select Pass Delivery Mode</option>
+                <option value="co">At Counter</option>
+            </select>
+            <br><br>
+            <label for="center"><b>Center at which you want to collect pass* :</b></label>
+            <select name="cen" id="center">
+                <option value="ab">RTC ABIDS</option>
+                <option value="af">RTC AFZALGUNJ</option>
+                <option value="air">RTC AIRPORT</option>
+                <option value="af">RTC ARAMGHAR</option>
+                <option value="af">RTC BALA NAGAR</option>
+                <option value="af">RTC KpHp</option>
+                <option value="af">RTC Lb nagar</option>
+                <option value="af">RTC freedom oli</option>
+                <option value="af">RTC street road</option>
+                <option value="af">RTC ammer</option>
+            </select>
+        </fieldset>
+        <center><img src="./Captcha.jpg" width="200" alt=""></center>
+
+        <center><input type="text" required name="captcha" patten="Td4eva">
+            <br><br>
+    
+            <input type="submit" value="Submit"></center>
+    </form>
+</body>
+</html>
+
+
+    
+    
+    
